@@ -1,0 +1,34 @@
+--3.9 Find the average amount paid by the top 5 customers using CTE
+WITH best_customers_cte (customer_id, first_name, last_name, country, city, total_amount_paid1) 
+AS
+--3.7 Write a query to find the top 5 customers from the top 10 cities who’ve paid the highest total amounts to Rockbuster. The customer team would like to reward them for their loyalty!  
+(SELECT A.customer_id, A.first_name, A.last_name, D.country, C.city, SUM(E.amount) AS Total_Amount_Paid
+FROM customer A
+	INNER JOIN address B ON A.address_id=B.address_id
+	INNER JOIN city C ON C.city_id=B.city_id
+	INNER JOIN country D ON D.country_id=C.country_id
+	INNER JOIN payment E ON E.customer_id=A.customer_id
+WHERE city IN 
+(SELECT C.city
+FROM customer A
+	INNER JOIN address B ON A.address_id=B.address_id
+	INNER JOIN city C ON C.city_id=B.city_id
+	INNER JOIN country D ON D.country_id=C.country_id
+WHERE D.country IN 
+(SELECT D.country
+FROM customer A
+	INNER JOIN address B ON A.address_id=B.address_id
+	INNER JOIN city C ON C.city_id=B.city_id
+	INNER JOIN country D ON D.country_id=C.country_id
+GROUP BY D.country
+ORDER BY COUNT (A.customer_id) DESC
+LIMIT 10) 
+GROUP BY D.country, C.city
+ORDER BY COUNT (A.customer_id) DESC
+LIMIT 10)
+GROUP BY A.customer_id, A.first_name, A.last_name, D.country, C.city
+ORDER BY SUM(E.amount) DESC
+LIMIT 5)
+--END 3.7
+SELECT AVG (total_amount_paid1)
+FROM best_customers_cte;
