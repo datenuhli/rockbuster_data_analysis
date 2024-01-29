@@ -17,8 +17,6 @@ The dataset comprises the information on the following parameters:
 - products
 - departments
 
-The full details of the data set are available [here](https://www.) 
-
 ## Tools
 
 For this project, the following tools where used:
