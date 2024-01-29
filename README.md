@@ -1,5 +1,7 @@
 # Rockbuster Stealth Data Analysis Project
 
+This Analysis answers key questions for a movie rental company.
+
 ## Objective
 
 Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to **launch an online video rental service** in order to stay competitive.
@@ -27,7 +29,7 @@ For this project, the following tools where used:
 - PostgreSQL and PGAdmin4
 - Tableau Public for visualizations
 
-## Executing the code
+## Project deliveries
 
-## Ressources
+[Presentation]([Data Dictionary](https://github.com/datenuhli/rockbuster_data_analysis/blob/main/Rockbuster%20Data%20Analysis/05%20Sent%20to%20client/Rockbuster%20online%20rental%20service.pdf) 
 
