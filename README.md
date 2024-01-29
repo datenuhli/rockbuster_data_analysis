@@ -1,12 +1,31 @@
-# Portfolio
+# Rockbuster Stealth Data Analysis Project
 
-## Rockbuster Stealth Data Analysis Project
+## Objective
 
-#### Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to launch an online video rental service in order to stay competitive.
+Rockbuster Stealth LLC is a movie rental company that used to have stores around the world. Facing stiff competition from streaming services such as Netflix and Amazon Prime, the Rockbuster Stealth management team is planning to use its existing movie licenses to **launch an online video rental service** in order to stay competitive.
 
 #### Key questions for the launch strategy: 
 ● Which movies contributed the most/least to revenue gain?
-● What was the average rental duration for all videos?
 ● Which countries are Rockbuster customers based in?
 ● Where are customers with a high lifetime value based?
 ● Do sales figures vary between geographic regions
+
+## Data
+
+The dataset comprises the information on the following parameters:
+- orders
+- products
+- departments
+
+The full details of the data set are available [here](https://www.) 
+
+## Tools
+
+For this project, the following libraries where used:
+- pandas - for data analysis
+- seaborn - for visualizations
+
+## Executing the code
+
+## Ressources
+
