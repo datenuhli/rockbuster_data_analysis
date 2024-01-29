@@ -10,12 +10,16 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 - Where are customers with a high lifetime value based?
 - Do sales figures vary between geographic regions
 
+ [Project Brief](https://github.com/datenuhli/rockbuster/blob/main/Rockbuster%20Data%20Analysis/01%20Project%20Management/Rockbuster_Project_Brief.pdf) 
+
 ## Data
 
 The dataset comprises the information on the following parameters:
 - orders
 - products
 - departments
+
+[Data Dictionary](https://github.com/datenuhli/rockbuster/blob/main/Rockbuster%20Data%20Analysis/01%20Project%20Management/Rockbuster%20Data%20Dictionary.pdf) 
 
 ## Tools
 
