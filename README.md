@@ -1,6 +1,6 @@
 # Rockbuster Stealth Data Analysis Project
 
-This Analysis answers key questions for a movie rental company.
+Analysis to answers key questions for a movie rental company.
 
 ## Objective
 
