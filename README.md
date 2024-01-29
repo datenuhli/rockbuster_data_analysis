@@ -31,5 +31,5 @@ For this project, the following tools where used:
 
 ## Project deliveries
 
-[Presentation]([Data Dictionary](https://github.com/datenuhli/rockbuster_data_analysis/blob/main/Rockbuster%20Data%20Analysis/05%20Sent%20to%20client/Rockbuster%20online%20rental%20service.pdf) 
+[Presentation](https://github.com/datenuhli/rockbuster_data_analysis/blob/main/Rockbuster%20Data%20Analysis/05%20Sent%20to%20client/Rockbuster%20online%20rental%20service.pdf) 
 
